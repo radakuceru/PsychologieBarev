@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
     $("body").append($mobile_nav);
     $("body").prepend(
-      '<button type="button" id="mobile-nav-toggle"><i class="ti-menu"></i></button>'
+      '<button type="button" id="mobile-nav-toggle"><img src="./img/menu.svg"></img></button>'
     );
     $("body").append('<div id="mobile-body-overly"></div>');
     $("#mobile-nav")
